@@ -1,0 +1,8 @@
+<p>{{ name }}</p>
+<p> Stock Market Trends, and Recommendations:</p>
+
+<a href='/'> Home</a>
+
+{% for item in data %}
+    <p> <img src={{ item }} alt="Chart" height="500" width="700"> </p>
+{% endfor %}
